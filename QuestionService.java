@@ -24,6 +24,7 @@ public class QuestionService {
 
             Scanner scanner = new Scanner(System.in);
             answers[i] = scanner.nextLine();
+            scanner.close();
             i++;
         }
 
