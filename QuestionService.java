@@ -10,7 +10,7 @@ public class QuestionService {
                 "max verstappen", "max verstappen", "max verstappen");
     }
 
-    public void displayQuestions() {
+    public void playQuiz() {
         for (Question question : questions) {
             System.out.println(question);
         }
